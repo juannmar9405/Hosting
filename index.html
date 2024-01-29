@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta de satisfacción</title>
+</head>
+<body>
+  <h1>Encuesta de satisfacción</h1>
+  <p>Gracias por tomarse el tiempo de responder esta encuesta. Sus comentarios nos ayudarán a mejorar nuestros servicios.</p>
+
+  <form action="/encuesta" method="post">
+    <input type="text" name="nombre" placeholder="Ingrese su nombre">
+    <input type="text" name="correo" placeholder="Ingrese su correo electrónico">
+    <input type="radio" name="calificacion" value="1"> 1
+    <input type="radio" name="calificacion" value="2"> 2
+    <input type="radio" name="calificacion" value="3"> 3
+    <input type="radio" name="calificacion" value="4"> 4
+    <input type="radio" name="calificacion" value="5"> 5
+    <textarea name="comentarios" placeholder="Ingrese sus comentarios"></textarea>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
